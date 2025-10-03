@@ -1,0 +1,14 @@
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\bin\Debug\net9.0\batallaNavalJuego.exe
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\bin\Debug\net9.0\batallaNavalJuego.deps.json
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\bin\Debug\net9.0\batallaNavalJuego.runtimeconfig.json
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\bin\Debug\net9.0\batallaNavalJuego.dll
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\bin\Debug\net9.0\batallaNavalJuego.pdb
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.AssemblyInfoInputs.cache
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.AssemblyInfo.cs
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.csproj.CoreCompileInputs.cache
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.dll
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\refint\batallaNavalJuego.dll
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.pdb
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\batallaNavalJuego.genruntimeconfig.cache
+C:\Users\vichu\OneDrive\Documents\c#\batallaNavalJuego\obj\Debug\net9.0\ref\batallaNavalJuego.dll
