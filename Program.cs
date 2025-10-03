@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class BatallaNaval
 {
@@ -90,9 +90,9 @@ class BatallaNaval
     {
         Console.Clear();
         Console.WriteLine();
-        Console.WriteLine("*********************************");
+        Console.WriteLine("*");
         Console.WriteLine("    JUGADOR " + jugador + " GANA!");
-        Console.WriteLine("*********************************");
+        Console.WriteLine("*");
         Console.WriteLine();
         Console.WriteLine("Gracias por jugar Batalla Naval");
         Console.WriteLine();
@@ -158,6 +158,31 @@ class BatallaNaval
         Console.WriteLine("  # = Barco largo | $ = Barco corto | X = Tocado | O = Agua | ~ = Vacio");
     }
 
+    static int LeerEntero(string mensaje)
+    {
+        while (true)
+        {
+            Console.Write(mensaje);
+            string entrada = Console.ReadLine();
+            
+            if (string.IsNullOrWhiteSpace(entrada))
+            {
+                Console.WriteLine("ERROR: No puedes dejar esto vacio. Intenta de nuevo.");
+                continue;
+            }
+            
+            int numero;
+            if (int.TryParse(entrada, out numero))
+            {
+                return numero;
+            }
+            else
+            {
+                Console.WriteLine("ERROR: Debes escribir un numero valido. Intenta de nuevo.");
+            }
+        }
+    }
+
     static void PonerBarco(char[,] m, int largo, string nombre, char simbolo)
     {
         bool listo = false;
@@ -170,8 +195,7 @@ class BatallaNaval
             Mostrar(m);
             Console.WriteLine();
 
-            Console.Write("Fila (0-4): ");
-            int f = int.Parse(Console.ReadLine());
+            int f = LeerEntero("Fila (0-4): ");
             
             if (f < 0 || f >= tamaño)
             {
@@ -180,8 +204,7 @@ class BatallaNaval
                 continue;
             }
 
-            Console.Write("Columna (0-4): ");
-            int c = int.Parse(Console.ReadLine());
+            int c = LeerEntero("Columna (0-4): ");
             
             if (c < 0 || c >= tamaño)
             {
@@ -196,9 +219,8 @@ class BatallaNaval
             Console.WriteLine("  2 = Horizontal Izquierda");
             Console.WriteLine("  3 = Vertical Abajo");
             Console.WriteLine("  4 = Vertical Arriba");
-            Console.Write("Elige (1-4): ");
             
-            int opcion = int.Parse(Console.ReadLine());
+            int opcion = LeerEntero("Elige (1-4): ");
             int df = 0;
             int dc = 0;
 
@@ -280,8 +302,7 @@ class BatallaNaval
             Console.WriteLine("  X = Tocado | O = Agua | ~ = No disparado");
             Console.WriteLine();
 
-            Console.Write("Fila para disparar (0-4): ");
-            int f = int.Parse(Console.ReadLine());
+            int f = LeerEntero("Fila para disparar (0-4): ");
             
             if (f < 0 || f >= tamaño)
             {
@@ -289,8 +310,7 @@ class BatallaNaval
                 continue;
             }
 
-            Console.Write("Columna para disparar (0-4): ");
-            int c = int.Parse(Console.ReadLine());
+            int c = LeerEntero("Columna para disparar (0-4): ");
             
             if (c < 0 || c >= tamaño)
             {
